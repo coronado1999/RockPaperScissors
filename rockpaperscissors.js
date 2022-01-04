@@ -33,9 +33,9 @@ function playRound(playerSelection, computerSelection) {
 
 var userScore = parseInt(0);
 var computerScore = parseInt(0);
-var win = "You won. " + playerSelection + "beats " + computerSelection;
-var lose = "you lose"
-var tie = "tie"
+var win = "You won."
+var lose = "You lose"
+var tie = "Tie"
 var overallWin = "You won the game."
 var overallLose = "You lost the game."
 var overallTie = "The game ended in a tie."
