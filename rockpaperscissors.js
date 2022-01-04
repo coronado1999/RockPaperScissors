@@ -38,7 +38,7 @@ var lose = "you lose"
 var tie = "tie"
 var overallWin = "You won the game."
 var overallLose = "You lost the game."
-var overallTie = "The ended in a tie."
+var overallTie = "The game ended in a tie."
 
 
 function playGame() {
