@@ -33,12 +33,12 @@ function playRound(playerSelection, computerSelection) {
 
 var userScore = parseInt(0);
 var computerScore = parseInt(0);
-var win = "You win"
-var lose = "you lose"
-var tie = "tie"
-var overallWin = "You won the game."
-var overallLose = "You lost the game."
-var overallTie = "The game ended in a tie."
+var win = "You win";
+var lose = "you lose";
+var tie = "tie";
+var overallWin = "You won the game.";
+var overallLose = "You lost the game.";
+var overallTie = "The game ended in a tie.";
 
 
 function playGame() {
