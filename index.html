@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="rockpaperscissors.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href ="style.css">
+    <script src="rockpaperscissors.js" defer></script>
 </head>
 <body>
-    
+    <h1>First win 5 rounds wins.</h1>
+
+    <div id="container">
+    <button id="selection-rock" data-selection="rock"></button>
+    <button id="selection-paper" data-selection="paper"></button>
+    <button id="selection-scissors" data-selection="scissors"></button>
+    </div>
+
+    <div class="results">
+        <div class="you">
+            You
+            <span class="result-score" data-user-score>0</span>
+        </div>
+        <div class="computer">
+            Computer
+            <span class="result-score" data-computer-score>0</span>
+        </div>
+        <div>
+            <p id="roundResults"></p>
+        </div>
+    </div>
+
+    <div id="result-text"></div>
+    <div class="btn">
+    <button id="retry-btn"></button>
+    </div>
 </body>
 </html>
